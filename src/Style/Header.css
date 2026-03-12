@@ -1,0 +1,97 @@
+/* =========================
+Navbar
+========================= */
+
+.header{
+width:100%;
+background:#24364a;
+position:fixed;
+top:0;
+left:0;
+z-index:1000;
+}
+
+.navbar{
+max-width:1200px;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:15px 20px;
+}
+
+/* Logo */
+
+.logo{
+font-size:18px;
+font-weight:600;
+cursor:pointer;
+}
+
+.gradient-text{
+background:linear-gradient(90deg,#64ffda,#ff00ff);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+/* Nav Links */
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.nav-links li a{
+text-decoration:none;
+color:#cfcfcf;
+font-weight:500;
+transition:0.3s;
+}
+
+.nav-links li a:hover{
+color:#00d9ff;
+}
+
+/* Hamburger */
+
+.menu-toggle{
+display:none;
+font-size:26px;
+cursor:pointer;
+color:white;
+}
+
+/* =========================
+Responsive
+========================= */
+
+@media(max-width:768px){
+
+.nav-links{
+position:absolute;
+top:65px;
+left:0;
+width:100%;
+background:#24364a;
+flex-direction:column;
+align-items:center;
+max-height:0;
+overflow:hidden;
+transition:0.3s;
+}
+
+.nav-links.active{
+max-height:300px;
+padding:20px 0;
+}
+
+.nav-links li{
+margin:15px 0;
+}
+
+.menu-toggle{
+display:block;
+}
+
+}

@@ -1,0 +1,164 @@
+.contact-section{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background: linear-gradient(135deg, #020617, #0f172a, #020617);;
+/* background:linear-gradient(135deg,#020024,#090979,#000000); */
+padding:40px;
+}
+
+/* CARD */
+
+.contact-card{
+width:420px;
+padding:40px;
+
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(12px);
+
+border-radius:16px;
+text-align:center;
+
+box-shadow:0 20px 50px rgba(0,0,0,0.6);
+color:white;
+
+transition:0.3s;
+}
+
+.contact-card:hover{
+transform:translateY(-8px);
+}
+
+
+.contact-card h2{
+font-size:28px;
+margin-bottom:10px;
+}
+
+
+
+.contact-desc{
+color:#cfcfcf;
+margin-bottom:25px;
+}
+
+
+
+.contact-info p{
+margin:8px 0;
+color:#e0e0e0;
+text-align: left;
+}
+
+
+
+.social-icons{
+display:flex;
+justify-content:center;
+gap:18px;
+margin:25px 0;
+}
+
+
+
+.icon{
+width:46px;
+height:46px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+border-radius:50%;
+font-size:20px;
+
+color:white;
+
+transition:0.3s;
+}
+
+
+
+.github{
+background:#333;
+}
+
+.mail{
+background:#ff4b4b;
+}
+
+.linkedin{
+background:#0a66c2;
+}
+
+.instagram{
+background:linear-gradient(45deg,#833ab4,#fd1d1d,#fcb045);
+}
+
+
+
+.icon:hover{
+transform:translateY(-6px) scale(1.1);
+box-shadow:0 10px 20px rgba(0,0,0,0.5);
+}
+
+
+
+.response{
+font-size:14px;
+color:#bbb;
+margin-top:20px;
+}
+
+
+
+.contact-footer{
+  margin-top:30px;
+  color:#555;
+  font-size:14px;
+}
+
+.footer{
+  position:relative;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:25px 40px;
+
+  background:linear-gradient(
+135deg,
+#020617,
+#0f172a,
+#020617
+);
+
+  font-size:16px;
+}
+
+
+
+.footer-left p{
+  margin:0;
+  color:#c4c1c1;
+  font-weight:500;
+}
+
+.heart{
+  color:red;
+}
+
+
+
+
+
+.footer-right a{
+  text-decoration:none;
+  color:#c4c1c1;
+  font-weight:500;
+}
+
+.footer-right i{
+  margin-right:6px;
+}
