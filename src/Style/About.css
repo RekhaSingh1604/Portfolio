@@ -158,9 +158,10 @@ transform:scale(1.2);
 @media(max-width:768px){
 
 .about-container{
-
-padding:50px 30px;
-
+padding:50px 20px;
+}
+.about-section{
+    padding: 120px 2%;
 }
 
 .bg-text{
@@ -176,9 +177,8 @@ font-size:22px;
 }
 
 .about-text{
-
 font-size:15px;
-
+text-align: justify;
 }
 
 }
