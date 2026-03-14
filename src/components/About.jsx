@@ -11,9 +11,9 @@ const About = () => {
 
       <div class="about-container">
 
-        <h1 class="bg-text">ABOUT ME</h1>
+        <h1 class="bg-text" >ABOUT ME</h1>
 
-        <h2 class="title">Know Me More</h2>
+        <h2 class="title"  data-aos="fade-up">Know Me More</h2>
 
         <h3 class="heading">
           I'm <span>Rekha Singh</span>, a Web Developer

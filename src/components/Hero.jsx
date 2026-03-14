@@ -11,6 +11,7 @@ const roles = [
 ];
 
 export default function Hero() {
+  
 
   const [text, setText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -63,10 +64,9 @@ export default function Hero() {
 
         <h1>Rekha Singh</h1>
 
-        <h2>
-          I build user-friendly websites with
-          <span> Rekha Singh</span>
-        </h2>
+       <h2>
+  I build modern & user-friendly web experiences
+</h2>
 
         <p className="exp">
           {text}

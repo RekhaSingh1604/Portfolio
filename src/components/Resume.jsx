@@ -9,7 +9,7 @@ const Resume = () => {
 <div class="resume-container">
 
 
-<div class="card">
+<div class="card" data-aos="fade-right">
 
 <h2>Education</h2>
 <div class="line"></div>
@@ -42,7 +42,7 @@ database and computer science concepts.
 
 
 
-<div class="card">
+<div class="card" data-aos="fade-left">
 
 <h2>Completed Projects</h2>
 <div class="line"></div>

@@ -120,9 +120,15 @@ font-size:13px;
 }
 .link_display a{
        padding: 7px 23px;
-    border: 2px solid #020617;
+    border: 2px solid linear-gradient(90deg, #248cbd, #f441a5);;
     border-radius: 10px;
+    box-shadow: 2px 2px 3px #000000b4;
     color: #020617;
     text-decoration: none;
     font-size: 17px;
+    /* background: linear-gradient(90deg, #03a9f4, #f441a5); */
+      /* background: linear-gradient(90deg, #03a9f4, #f441a5); */
+}
+.link_display a:hover{
+background: linear-gradient(90deg, #2e4149, #572f46);
 }
