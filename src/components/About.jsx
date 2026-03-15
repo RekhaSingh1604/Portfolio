@@ -7,9 +7,9 @@ import { IoMailSharp } from "react-icons/io5";
 
 const About = () => {
   return (
-    <section class="about-section">
+    <section class="about-section" >
 
-      <div class="about-container">
+      <div class="about-container" >
 
         <h1 class="bg-text" >ABOUT ME</h1>
 

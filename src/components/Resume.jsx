@@ -9,7 +9,8 @@ const Resume = () => {
 <div class="resume-container">
 
 
-<div class="card" data-aos="fade-right">
+<div class="card"  data-aos="fade-up"
+     data-aos-duration="3000">
 
 <h2>Education</h2>
 <div class="line"></div>
@@ -42,7 +43,8 @@ database and computer science concepts.
 
 
 
-<div class="card" data-aos="fade-left">
+<div class="card"  data-aos="fade-up"
+     data-aos-duration="3000">
 
 <h2>Completed Projects</h2>
 <div class="line"></div>

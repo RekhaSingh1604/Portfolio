@@ -28,16 +28,20 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import Project from "./components/Project";
 
 function App() {
   return (
     <Router>
 
       <Header />
+      {/* <Hero/> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/project" element={<Project/>}/>
+        {/* <Project/> */}
         <Route path="/resume" element={<Resume />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />

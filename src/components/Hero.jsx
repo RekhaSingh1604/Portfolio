@@ -60,9 +60,9 @@ export default function Hero() {
 
       <div className="hero-content">
 
-        <p className="hello">Hello, I'm</p>
+        <p className="hello" data-aos="fade-up">Hello, I'm</p>
 
-        <h1>Rekha Singh</h1>
+        <h1  data-aos="fade-right">Rekha Singh</h1>
 
        <h2>
   I build modern & user-friendly web experiences
@@ -79,7 +79,8 @@ export default function Hero() {
 
           <div className="social-icon">
 
-            <a
+            <a data-aos="fade-up"
+     data-aos-duration="3000"
               className="icon instagram"
               href="https://www.instagram.com/rekha_singh1604"
               target="_blank"
@@ -88,7 +89,8 @@ export default function Hero() {
               <FaInstagram />
             </a>
 
-            <a
+            <a data-aos="fade-up"
+     data-aos-duration="3000"
               className="icon github"
               href="https://github.com/RekhaSingh1604"
               target="_blank"
@@ -97,14 +99,16 @@ export default function Hero() {
               <FaGithub />
             </a>
 
-            <a
+            <a data-aos="fade-up"
+     data-aos-duration="3000"
               className="icon mail"
               href="mailto:singhrekh5704@gmail.com"
             >
               <IoMailSharp />
             </a>
 
-            <a
+            <a data-aos="fade-up"
+     data-aos-duration="3000"
               className="icon linkedin"
               href="https://www.linkedin.com/in/rekha-singh-35a22b309/"
               target="_blank"
@@ -117,7 +121,8 @@ export default function Hero() {
 
           {/* PROJECT BUTTON */}
 
-          <a
+          <a data-aos="fade-up"
+     data-aos-duration="3000"
             className="book-btn"
             href="https://amarneerfuelstationfrontend.vercel.app/"
             target="_blank"
