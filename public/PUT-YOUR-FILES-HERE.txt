@@ -1,0 +1,11 @@
+Drop these two files directly into this /public folder:
+
+1. profile-photo.jpg   — your real photo for the hero section.
+   Until this file exists, the hero shows a clean "RS" placeholder
+   instead (see src/components/Hero.jsx — it fails over automatically).
+   Recommended: a square-ish, well-lit headshot, at least 800x800px.
+
+2. resume.pdf          — your resume, linked from the "Download Resume"
+   buttons in the hero and the closing CTA section.
+
+Delete this file once you've added both.
